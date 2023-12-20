@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  color: #5D536B;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+h2, h4 {
+  color: #989FCE;
+}
+
+span {
+  color: #fff;
+}
+
+.tutorial {
+  background: #272838;
+  color: #fff;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tutorial-content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 35vw;
+  border: 1px solid #989FCE;
+  border-radius: 8px;
+  padding: 16px;
+  justify-content: space-around;
+}
+
+.tutorial-profile {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
