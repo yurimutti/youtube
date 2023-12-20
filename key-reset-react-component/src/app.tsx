@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Profile } from "./components/profile";
 import "./app.css";
 
-const profiles = [{ name: "John" }, { name: "Smith" }];
+const profiles = [{ name: "John Doe" }, { name: "John Smith" }];
 
 function App() {
   const [selectedProfile, setSelectedProfile] = useState<string>("John");
